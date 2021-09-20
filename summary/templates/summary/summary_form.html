@@ -1,0 +1,17 @@
+{% extends 'summary/main.html' %}
+{% block content %}
+
+<div class="card-body">
+    <div class="detail">
+        <form method="post" action="{% url 'result' %}">
+        {% csrf_token %}
+        <p>Text paragraphs to be summarized:</p>
+        <textarea rows="10" cols="60" name="content" placeholder="Enter text and click Submit"></textarea>
+        <br>
+        <input class="button" type="submit" value="Submit"/>
+    </form>
+    </div>
+
+</div>
+
+{% endblock content %}

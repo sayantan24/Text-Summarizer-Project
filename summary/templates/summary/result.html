@@ -1,0 +1,10 @@
+{% extends 'summary/main.html' %}
+{% block content %}
+<div class="header-bar">
+    <a href="{% url 'home' %}">&#8592; Go Back</a>
+</div>
+  <div class="card-body">
+    <h1>SUMMARY GENERATED</h1>
+    <p>{{ result }}</p>
+  </div>
+{% endblock content %}
