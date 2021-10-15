@@ -1,1 +1,6 @@
 punkt
+stopwords
+pos_tag
+word_tokenize
+sent_tokenize
+PorterStemmer
