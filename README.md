@@ -23,5 +23,6 @@
   </tr>
   <tr>
     <th><img src="images/Screenshot209.png"/></th>
+    <th><img src="images/Screenshot211.png"/></th>
   </tr>
   </table>
