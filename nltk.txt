@@ -1,6 +1,3 @@
 punkt
 stopwords
-corpus
-tag
-tokenize
-stem
+averaged_perceptron_tagger
