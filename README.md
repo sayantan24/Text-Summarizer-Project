@@ -26,3 +26,6 @@
     <th><img src="images/Screenshot211.png"/></th>
   </tr>
   </table>
+  
+ ## Flowchart of methodology
+ <img src="images/textFlowchart.png"/>
